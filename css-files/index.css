@@ -1,0 +1,758 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("../IranSans/IRANSansWeb.woff")
+    format("woff");
+}
+div.kk{
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+div.a{
+    background-color: white;
+    border-bottom-style:solid;
+    border-color: #dfdfdf;
+    clear: both;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+}
+div.b{
+    float: right;
+}
+img.a{
+    width: 200px;
+    margin-right: 85px;
+}
+div.c{
+    float: right;
+}
+nav ul ul {
+    display: none;
+    z-index: 10;
+    text-align: right;
+    border: gray 1px solid;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul {
+    background: white;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.0);
+    padding: 0 20px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    text-align: right;
+}
+nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+nav ul li {
+    font-family: myFirstFont;
+    float: right;
+    position: relative;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+nav ul li a {
+    display: block;
+    padding: 15px 32px;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+}
+nav ul li a:hover{
+    color: blue;
+}
+nav ul ul {
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    text-align: right;
+}
+nav ul ul li {
+    float: none;
+    position: relative;
+    text-align: right;
+}
+nav ul ul li a {
+    padding: 15px 40px;
+    color: black;
+    text-align: right;
+}
+nav ul ul li a:hover {
+    color: blue;
+}
+nav ul ul ul {
+    position: absolute;
+    right: 100%;
+    top:0;
+    text-align: right;
+}
+
+
+
+
+
+div.icon{
+    width: 120px;
+    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: white;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    color: black;
+    text-align: right;
+    padding: 5px 0;
+    border-radius: 6px;
+    border: 1px black solid;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -15px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    position: absolute;
+    bottom: 100%;
+    top:2px;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("../IranSans/IRANSansWeb.woff")
+    format("woff");
+}
+div.sabad-kharid{
+    height: 70px;
+}
+img.zarbdar-2{
+    width:15px ;
+    margin-left: 30px;
+}
+img.zarbdar-2:hover{
+    transform: scale(0.9);
+}
+h4.h4{
+    font-family: myFirstFont;
+}
+
+
+div.mahsool{
+    width: 400px;
+    margin-top: 0px;
+    display: flex;
+}
+img.tasvir{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+img.zarbdar{
+    width: 10px;
+    margin-left: 30px;
+}
+img.zarbdar:hover{
+    transform: scale(0.9);
+}
+p.g1{
+    font-family: myFirstFont;
+    direction: rtl;
+    font-size: small;
+}
+span.red{
+    color: red;
+}
+div.zarbdar{
+    float: left;
+    width: 33.33%;
+    text-align: left;
+    height: 120px;
+}
+div.geymat{
+    text-align: center;
+    width: 33.33%;
+    height: 120px;
+}
+div.tasvir{
+    float: right;
+    width: 33.33%;
+    text-align: center;
+    height: 120px;
+}
+img.tasvir{
+    border-radius: 15px;
+}
+div.koll{
+    border-bottom: black 1px dashed;
+    height: 120px;
+}
+
+
+
+
+
+div.tasvieh-moshahedeh{
+    height: 70px;
+}
+div.moshahedeh{
+    float: right;
+    width: 200px;
+    height: 70px;
+}
+div.tasvieh{
+    float: left;
+    width: 200px;
+    height: 70px;
+}
+
+
+
+
+.classname {
+    font-family: myFirstFont;
+    box-shadow:inset 0 1px 0 0 black;
+    background-color:#ededed;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border:1px solid black;
+    display:inline-block;
+    color:black;
+    font-size:15px;
+    font-weight:bold;
+    height:50px;
+    line-height:50px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+    padding: 0 10px;
+    width: 130px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+.classname:hover {
+    background-color:yellowgreen;
+}
+.classname:active {
+     position: relative;
+     top: 1px;
+ }
+
+
+.vorood-hesab {
+    font-family: myFirstFont;
+    box-shadow:inset 0 1px 0 0 black;
+    background-color:#ededed;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border:1px solid black;
+    display:inline-block;
+    color:black;
+    font-size:15px;
+    font-weight:bold;
+    height:50px;
+    line-height:50px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+    padding: 0 10px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+.vorood-hesab:hover {
+    background-color:yellowgreen;
+}.vorood-hesab:active {
+     position: relative;
+     top: 1px;
+ }
+
+
+
+
+h3.vorood{
+    direction: rtl;
+    text-align: center;
+    font-family: myFirstFont;
+}
+input.name , input.ramz{
+    font-family: myFirstFont;
+    width: 300px;
+    font-size: small;
+    text-align: right;
+    margin-right: 20px;
+    direction: rtl;
+}
+div.form-sabtenam{
+    font-family: myFirstFont;
+    font-size: small;
+}
+input.save{
+    font-family: myFirstFont;
+    font-size: small;
+    direction: rtl;
+    margin-right: 20px;
+    float: right;
+}
+a.faramooshi{
+    font-family: myFirstFont;
+    font-size: small;
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+    color: black;
+}
+a.faramooshi:hover{
+    color: blue;
+}
+input.button-vorood{
+    font-family: myFirstFont;
+    width: 350px;
+    text-align: center;
+    margin-right: 20px;
+    direction: rtl;
+    background-color: #3a945b;
+    border-radius: 10px;
+}
+input.button-vorood:hover{
+    transform: scale(0.9);
+}
+a.ozviat{
+    font-family: myFirstFont;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+a.ozviat:hover{
+    color: blue;
+}
+
+
+
+div.l-i{
+    float: left;
+    width: 33.33%;
+    text-align: left;
+}
+div.m-i{
+    text-align: center;
+    width: 33.33%;
+}
+div.r-i{
+    float: right;
+    width: 33.33%;
+    text-align: right;
+}
+img.adam , img.zarrebin , img.sabad-b{
+    width: 20px;
+}
+img.zarrebin:hover{
+    transform: scale(0.9);
+}
+img.sabad-b:hover{
+    transform: scale(0.9);
+}
+img.adam:hover{
+    transform: scale(0.9);
+}
+p.jostejoo{
+    font-family: myFirstFont;
+    direction: rtl;
+    margin-right: 10px;
+    margin-top: 0px;
+    font-size: small;
+}
+.tooltip-l {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Tooltip text */
+.tooltip-l .tooltiptext-l {
+    visibility: hidden;
+    height: 20px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    text-align: right;
+    padding: 5px 0;
+    border-radius: 6px;
+    border: 1px black solid;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 50%;
+    margin-left: -15px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip-l .tooltiptext-l::after {
+    position: absolute;
+    bottom: 100%;
+    top:2px;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-l:hover .tooltiptext-l {
+    visibility: visible;
+    opacity: 1;
+}
+div.icon-l{
+    position: fixed;
+    margin-left: 0px;
+    float: left;
+    margin-top: 100px;
+    display: inline-block;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: burlywood;
+    height: 130px;
+    width: 60px;
+    z-index: 1;
+}
+
+div.insta , div.tel{
+    width: 20px
+}
+img.tel , img.insta{
+    margin: 20px;
+    width: 20px;
+}
+img.tel:hover{
+    transform: scale(0.9);
+}
+img.insta:hover{
+    transform: scale(0.9);
+}
+p.insta , p.tel{
+    font-family: myFirstFont;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+div.d{
+    clear: both;
+    float: right;
+    margin-bottom: 50px;
+}
+img.b{
+    width: 100%;
+    position: relative;
+}
+p.a{
+    font-family: myFirstFont;
+    text-align: right;
+    position: absolute;
+    top: 465px;
+    right: 100px;
+    font-size: xx-large;
+}
+
+
+
+div.e{
+    display: flex;
+    flex-wrap: nowrap;
+    clear: both;
+    width: 100%;
+    justify-content: space-between;
+}
+div.left{
+    float: left;
+}
+div.middle{
+   text-align: center;
+}
+div.right{
+    float: right;
+}
+img.c{
+    width: 400px;
+    border-radius: 15px;
+    border: lightgray 2px solid;
+}
+img.c:hover{
+    transform: scale(0.97);
+}
+
+
+div.f{
+    display: flex;
+    flex-wrap: nowrap;
+    clear: both;
+    width: 100%;
+    justify-content: space-between;
+    background-color: burlywood;
+    margin-top: 50px;
+}
+div.ll{
+    float: left;
+    width: 33.33%;
+    text-align: left;
+}
+div.mm{
+    text-align: center;
+    width: 33.33%;
+}
+div.rr{
+    float: right;
+    width: 33.33%;
+    text-align: right;
+}
+p.b{
+    font-family: myFirstFont;
+    margin-left: 20px;
+}
+p.d{
+    font-family: myFirstFont;
+    margin-right: 20px;
+    color: black;
+}
+p.d:hover{
+    transform: rotate(0.9deg);
+    color: blue;
+}
+p.c{
+    font-family: myFirstFont;
+}
+
+
+div.g{
+    display: flex;
+    flex-wrap: nowrap;
+    clear: both;
+    width: 100%;
+    justify-content: space-between;
+    background-color: burlywood;
+    margin-top: 50px;
+}
+div.lll{
+    float: left;
+    width: 33.33%;
+    text-align: left;
+}
+div.mmm{
+    text-align: center;
+    width: 33.33%;
+}
+div.rrr{
+    float: right;
+    width: 33.33%;
+    text-align: right;
+}
+p.e{
+    font-family: myFirstFont;
+    margin-left: 20px;
+}
+p.g{
+    font-family: myFirstFont;
+    margin-right: 20px;
+    color: black;
+}
+p.g:hover{
+    transform: rotate(0.9deg);
+    color: blue;
+}
+p.f{
+    font-family: myFirstFont;
+}
+
+div.owl-carousel{
+ margin-top: 20px;
+}
+div.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+p.s1{
+    font-family: myFirstFont;
+    text-align: right;
+    margin-right: 25px;
+}
+p.s1:hover{
+    color: blue;
+}
+p.s2{
+    direction: rtl;
+    font-family: myFirstFont;
+    text-align: left;
+    margin-left: 40px;
+}
+img.z1{
+    width: 700px;
+    height: 400px;
+    border-radius: 15px;
+}
+img.z1:hover{
+    transform: scale(0.97);
+}
+div.sarang{
+    border-top-style: solid;
+    border-color:lightgray;
+}
+h4.sarang{
+    font-family: myFirstFont;
+    text-align: right;
+}
+p.sarang{
+    font-family: myFirstFont;
+    text-align: justify;
+    direction: rtl;
+
+}
+
+div.end{
+    display: flex;
+    flex-wrap: nowrap;
+    clear: both;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+div.li{
+    margin-left: 300px;
+}
+div.mi{
+    text-align: center;
+}
+div.ri{
+    margin-right: 300px;
+}
+p.h , p.i , p.j{
+    font-family: myFirstFont;
+    text-align: center;
+    color: black;
+}
+p.h:hover{
+    color: blue;
+}
+p.i:hover{
+    color: blue;
+}
+p.j:hover{
+    color: blue;
+}
+img.medium-i:hover{
+    transform: scale(0.9);
+}
+img.right-i:hover{
+    transform: scale(0.9);
+}
+img.left-i:hover{
+    transform: scale(0.9);
+}
+div.payan{
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: nowrap;
+    clear: both;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+h3.p{
+    font-family: myFirstFont;
+}
+div.lp{
+    margin-left: 100px;
+}
+div.mp{
+    text-align: center;
+}
+div.rp{
+    margin-right: 100px;
+}
+ul.p{
+    list-style-type: none;
+}
+li.p{
+    font-family: myFirstFont;
+    direction: rtl;
+    text-align: right;
+    color: black;
+}
+li.p:hover{
+    color: blue;
+}
+a.vizhe{
+    text-decoration: none;
+}
+a.slide{
+    text-decoration: none;
+    color: black;
+}
+div{
+    border-radius: 15px;
+}
+img.a , img.b{
+    border-radius: 15px;
+}
